@@ -7,17 +7,22 @@
   </head>
   <body>
     <form>
-        Name:
-        <input type="text" id="name" name="name">
+        
+        <fieldset>
+            <legend>Personal details</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+        </fieldset>
       
-        Age:
-        <input type="number" id="age" name="age">
-      
-        Comment:
-        <input type="text" id="comment" name="comment">
-      
-        Email:
-        <input type="email" id="email" name="email">
+        <fieldset>
+            <legend>Comment information</legend>
+            <label for="comment">Comment:</label>
+            <input type="text" id="comment" name="comment">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </fieldset>
       </form>
   </body>
 </html>
